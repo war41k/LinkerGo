@@ -1,5 +1,5 @@
 		
-		Dep + plugin build programs cal
+		Dep + plugin build programs call
 		Golang
 			
 		/src/project/main.go + /src/project/plugin.go 
@@ -7,5 +7,5 @@
 		$ dep ensure			
 		$ go build -buildmode=plugin plugin.go
 		$ rm plugin.go
-		$ go build 
+		$ go build main.go
 		
